@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/robi.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+
+    <script src="../js/mange.js" async=""></script>
+
+    <link rel="icon" href="../img/favicon-32x32.png">
+
+    <title>Boris ANDREIU</title>
+</head>
+
+<header>
+    <a id="haut"></a>
+    <!--  Liens logo  -->
+
+    <div id="hautDePage">
+        <div id="liens" class="ouvreliens">
+            <ul>
+                <li>
+                    <a  href="https://drive.google.com/file/d/16uKn5jHXmWv_PNHlW3ZtxRNuPSXleE-I/view?usp=sharing" target="_blank"><img id="gm" src="../img/cv.png"
+                        alt="liengmail"></a>
+                  </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/boris-andrieu-43a0081b4/" target="_blank"><img id="link"
+                            src="../img/linked.png" alt="logolinkedin"></a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/Bozy87" target="_blank"><img id="git" src="../img/github.png" alt="logogithub"></a>
+                   
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div id="logo">
+
+            <img src="../img/AB.2.png" alt="logoperso">
+
+
+
+            <h1>Boris ANDRIEU</h1>
+        </div>
+    </div>
+    <!--  MENUS NAV  -->
+    <div id="nav" class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox">
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+
+        <ul id="menus" class="menu__box">
+            <li><a class="menu__item" href="../index.html">Qui suis-je</a></li>
+          
+
+            <li><a id="mange" class="menu__item" >Que fais-je</a></li>
+
+        </ul>
+    </div>
+</header>
+
+
+
+
+<body>
+    <!--  BODY CONTENU  -->
+
+    <div id="presentation">
+        <br>
+        
+            <h2 id="slt">Choses et autres.</h2>
+            <br>
+            <img src="../img/yamini.jpg" alt="photomontage">
+           
+                <h3>Avant d'entamer un cursus universitaire :</h3>
+                <p>J'ai essayé de pousser un peu plus loin le HTML/CSS, et de comprendre la logique JAVASCRIPT;<br> ce qui,
+                    issu d'un parcours plutôt littéraire, n'est pas une mince affaire,<br> mais ça progresse...
+                </p>
+
+        <!--- Fusion interim  --->
+    <h4> Site vitrine pour une agence d'intérim</h4>
+<br>
+                 &#74503; 
+<a class="liensite" href="https://www.fusion-interim.fr" target="_blank">"Fusion- intérim"</a><br>
+                <!----  BOOTSTRAP -->
+                <h4> Ebauche de site avec le framework "Bootstrap"</h4>
+<br>
+                 &#74503; 
+<a class="liensite" href="../Bootstrap/index.html" target="_blank">"Why not productions"</a><br>
+<!--- wordpress -->
+<h4> Petit blog sous Wordpress</h4>
+<br>
+<br>
+<h5> &#74503;
+<a class="liensite" href="https://perenne.borisandrieu.go.yo.fr/" target="_blank">Blog "Perenne"</a></h5><br>
+<br>
+                <!---------------TABLEAU ASTROLOGIE -------------------->
+
+                <h4> Tableau astrologique :</h4>
+                <div id="signe" class="">
+                    <div id="cadre" class="container-md">
+
+                        <!------- ENTETE --------->
+                        <div id="legendastro">Astrologie</div>
+                        <div id="tout" class="row">
+
+                            <!---------------------->
+
+                            <div id="user" class="col-5">
+                                <div id="prenom">
+                                    <label class="comuser"><u>Entrez votre prénom :</u></label><br>
+                                    <input id="inputprenom" class="datein" value="" type="text"
+                                        placeholder="Saisir un Prénom">
+                                    <span class="info"></span>
+                                </div><br />
+
+
+                                <div id="date">
+                                    <label class="comuser"><u>Entrez votre date de naissance :</u></label><br>
+                                    <label class="cjour" for="jour">Jour</label><br>
+                                    <input id="jour" class="datein" name="jour" value="" type="number"
+                                        placeholder="Saisir un chiffre" />
+                                    <span class="info"></span><br>
+
+                                    <label class="cmois">Mois</label><br>
+                                    <select class="datein" id="mois" name="month" required="required">
+                                        <option  value="x">Choisissez un mois</option>
+                                        <option value="1">Janvier</option>
+                                        <option value="2">Février</option>
+                                        <option value="3">Mars</option>
+                                        <option value="4">Avril</option>
+                                        <option value="5">Mai</option>
+                                        <option value="6">Juin</option>
+                                        <option value="7">Juillet</option>
+                                        <option value="8">Août</option>
+                                        <option value="9">Septembre</option>
+                                        <option value="10">Octobre</option>
+                                        <option value="11">Novembre</option>
+                                        <option value="12">Décembre</option>
+                                    </select><br>
+
+                                    <label>Année (entre 1930 et 2022)</label><br>
+                                    <input id="annee" class="datein" value="" type="number"
+                                        placeholder="Saisir un chiffre">
+                                </div>
+
+                            </div>
+
+                            <!-----------Boutton  valider-------->
+                            <div id="clicvalid" class="col-2">
+                                <button id="valid" type="submit" class="btn">Valider</button>
+                                <span class="info"></span>
+                            </div>
+
+                            <!---------Form 2 réponses---------->
+                            <div id="userreponse" class="col-5">
+                                <form id="form2">
+
+
+                                    <!-----------Afficher phrase réponse----------->
+                                    <div id="reponse">
+                                        <b><span id="ici" class="comuser2"></span></b>
+                                    </div>
+                                    <!----------------------------->
+                                    <div class="label2">
+                                        <label class="comuser"><u>Votre signe astrologique est :</u></label><br>
+                                        <b>
+                                            <span id="signe1" value="" class="comuser2" type="text"
+                                                name="sign"></span><b><br>
+                                    </div>
+                                    <div class="label2">
+                                        <label class="comuser"><u>Signe chinois :</u></label><br>
+                                        <b>
+                                            <span id="signe2" class="comuser2" type="text" name="csign">
+                                            </span>
+                                        </b>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+    
+    
+ <!--- Site rudi   --->
+                                                    <h4> Site vitrine Artiste</h4>
+<br>
+                 &#74503; 
+<a class="liensite" href="https://lentrepot.github.io/RUDI/" target="_blank">"RUDI"</a><br>
+
+
+
+
+
+    <!----    CALCULETTE        ----->
+
+    
+        <h4>Calculette :</h4>
+        <br>(Avec caché dedans, un héro de blague pour enfant)<br><br>
+        <div id="calc">
+
+
+            <div id="calculette">
+                <div id="ecran">
+                    <span id="retour"></span>
+                </div>
+
+                <div id="btns">
+
+
+                    <div id="bloc0">
+
+                        <input id="AC" class="btnC op" type="button" value="AC" onclick="clearDisplay()">
+
+                        <input id="0" class="btnC" type="button" value="0" onclick="pushSign(0)">
+                        <input id="." class="btnC op" type="button" value="." onclick="pushSign(`.`)">
+                    </div>
+
+                    <div id="bloc1">
+
+
+                        <button id="1" class="btnC" type="button" value="1" onclick="pushSign(1)">1</button>
+                        <input id="2" class="btnC" type="button" value="2" onclick="pushSign(2)" />
+                        <input id="3" class="btnC" type="button" value="3" onclick="pushSign(3)" />
+                        <input id="/" class="btnC op" type="button" value="/" onclick="pushSign(` / `)" />
+
+                    </div>
+                    <div id="bloc2">
+
+
+                        <input id="4" class="btnC" type="button" value="4" onclick="pushSign(4)" />
+                        <input id="5" class="btnC" type="button" value="5" onclick="pushSign(5)" />
+                        <input id="6" class="btnC" type="button" value="6" onclick="pushSign(6)" />
+                        <input id="x" class="btnC op" type="button" value="x" onclick="pushSign(` * `)" />
+
+                    </div>
+
+                    <div id="bloc3">
+
+
+                        <input id="7" class="btnC" type="button" value="7" onclick="pushSign(7)" />
+                        <input id="8" class="btnC" type="button" value="8" onclick="pushSign(8)" />
+                        <input id="9" class="btnC" type="button" value="9" onclick="pushSign(9)" />
+                        <input id="-" class="btnC op" type="button" value="-" onclick="pushSign(` - `)" />
+
+                    </div>
+
+                    <div id="bloc4">
+
+
+
+                        <input id="egual" class="btnC op" type="button" value="=" />
+                        <input id="+" class="btnC op" type="button" value="+" onclick="pushSign(` + `)" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+<!--  Blog wix  -->
+
+<h4>  Petit blog réalisé à l'aide de l'outil en ligne WIX :</h4><br>
+<a class="liensite" href="https://bozyboite.wixsite.com/outils-dev-web" target="_blank">LIEN WIX</a>
+<br>
+       <!--- Rapport de stage  --->                                             
+                                                       <h4> Site simple pour rapport de stage</h4>
+<br>
+                 &#74503; 
+<a class="liensite" href="https://latelier.go.yo.fr/WP02/" target="_blank">"Stage 2023"</a><br><br>
+    <!------------- PRISE DE CONTACT ---------------->
+   
+        <h4>Animation CSS et bouton JS :</h4>
+
+        <br>
+   
+        <fieldset>
+
+            <div id="tete">
+
+                <div id="lumiere">
+                    <p id="cache">
+                        Prise de contact
+
+                    </p> <span id="cache1">
+                        Robi web
+                    </span>
+                </div>
+            </div>
+            <div id="boite">
+                <div id="bord">
+                    <div id="souhait">
+                        <a id="tab0">
+
+                            Je souhaite :
+                        </a>
+
+                    </div>
+                    <div id="inscription">
+
+
+
+                        <!------------------------------------------------->
+                        <div id="embaucher" class="atelier">
+
+                            <div class="texte">
+
+
+                                <p class="titre">
+                                    - Vous embaucher bénévolement -
+                                </p>
+                                <p class="quand ate">
+                                    Semaines, week-ends, jours fériés, <br>sans boire et sans manger..
+                                </p>
+                                <p id="reponseembauche" class="dispo ate">
+                                    ¡ Plus que <span id="nbrTel" class="nbr" value="" type="texte">3</span> places
+                                    disponible !
+
+                                </p><span id="sorry2" class="dispo ate"></span>
+                            </div>
+                            <div class="exp">
+                                <p>
+                                    Le lorem ipsum (également appelé faux-texte, lipsum, ou bolo bolo1) est, en
+                                    imprimerie, une suite de
+                                    mots sans signification utilisée à titre provisoire pour calibrer une mise en page,
+                                    le texte définitif
+                                    venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est
+                                    achevée.
+
+                                    Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a
+                                    été modifié), le Lorem
+                                    ipsum ou Lipsum. L'avantage du latin est que l'opérateur sait au premier coup d'œil
+                                    que la page
+                                    contenant ces lignes n'est pas valide et que l'attention du lecteur n'est pas
+                                    dérangée par le contenu,
+                                    lui permettant de demeurer concentré sur le seul aspect graphique.
+                                </p>
+
+                                <button id="insTel" class="inscrire" type="submit">
+
+                                    Go
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <!--------------------------------------------------->
+
+                        <div id="echanger" class="atelier">
+                            <div class="texte">
+
+
+                                <p class="titre">
+                                    - Echanger avec vous pour -
+                                </p>
+                                <p class="quand ate">
+                                    Du lundi au dimanche
+                                </p>
+                                <p id="reponse2" class="dispo ate">
+                                    ¡ Plus que <span id="nbrechange" class="nbr" value="" type="texte">486</span> places
+                                    disponible !
+
+                                </p><span id="sorry2" class="dispo ate"></span>
+                            </div>
+                            <div class="exp">
+                                <p>
+                                <div id="choix">
+
+                                    <div id="projet">
+
+                                        <p><a class="fleche">&#10149;</a>&nbsp; * Un projet numérique (webDev,
+                                            webDesign)</p>
+                                    </div>
+
+                                    <div id="colab">
+
+                                        <p><a class="fleche">&#10149;</a> &nbsp; * Une assistance technique (création
+                                            audio, éclairage)</p>
+                                    </div>
+
+                                    <div id="benevole">
+
+                                        <p><a class="fleche">&#10149;</a> &nbsp; * Jouer au tennis le dimanche matin</p>
+                                    </div>
+                                </div>
+                                </p>
+                                <button id="insechange" class="inscrire" type="button"
+                                    /*-----onclick="document.location.href='form.html'"-----*/> Go
+
+                                </button>
+                            </div>
+
+                        </div>
+                        <!--------------------------------------->
+
+                        <div id="rencontrer" class="atelier">
+                            <div class="texte">
+
+
+                                <p class="titre">
+                                    - Vous rencontrer -
+                                </p>
+                                <p class="quand ate">
+                                    Et discuter d'une possible collaboration
+                                </p>
+                                <p id="reponse3" class="dispo ate">
+                                    ¡ Plus que <span id="nbrerencontre" class="nbr" value="" type="texte">9853</span>
+                                    places disponible !
+
+                                </p><span id="sorry3" class="dispo ate"></span>
+                            </div>
+                            <div class="exp">
+                                <p>
+
+                                </p>
+
+                                <button id="inrencontre" class="inscrire" type="submit">
+                                    <!---- onclick="window.location.href='form.html'"  ---->
+                                    Go
+                                </button>
+                            </div>
+
+                        </div>
+   
+    <!------------------------------------------>
+
+    </div>
+
+    </div>
+
+
+ </div>
+
+    </fieldset>
+
+       <!-------  -->
+     <a href="#haut"> &#94</a>  
+     <!------  -->
+</div>
+ 
+    <!------- FOOTER ------->
+    <footer>
+        <nav>
+        <ul id="basdepage">
+            <li><a href="mailto:borisandrieu87@gmail.com">Contact</a><br><a>borisandrieu87@gmail.com</a></li><br>
+            <li><a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000801164" target="_blank">Mentions
+                    légales</a></li>
+        </ul></nav>
+    </footer>
+</body>
+
+</html>

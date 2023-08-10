@@ -1,0 +1,191 @@
+body{
+    padding-top: 3px;
+    width: 98%;
+    padding-left: 1%;
+  }
+  
+  main{
+    margin-top: 5px;
+  }
+  
+  .main-page-content{
+    max-width: 1380px;
+    margin: 30px auto;
+  }
+  
+  #encarts{
+    background-color: grey;
+  
+  }
+  
+  #encarts input{
+    text-align: center;
+  }
+  bg-dark{
+    margin-top: 20px;
+    
+  }
+  h1{
+    color: red;
+    
+  }
+  
+  #bord  {
+    background-color: yellow;
+    height: 100px;
+   
+    text-align: center;
+    
+  }
+  
+  .img-responsive{
+    border: 6px solid black;
+    border-radius: 0 40% 0 40%;
+    
+    width: 400px;
+    max-width: 25%;
+    height: 135px;
+    
+    position: absolute;
+    left: -15px;
+    top: -60px;
+    
+     
+  } 
+  #encarts label, .newsletter{
+    color: black;
+    text-shadow: 1px 1px 1px goldenrod;
+  }
+  
+  nav{
+    color: white;
+    
+  }
+  
+  #email, #name, #pass {
+    height: 30px;
+    width: 96%;
+    border-color: green;
+  }
+  
+  .inscription input{
+    
+    background-color: white;
+  }
+  .inscription input:hover{
+    background-color: goldenrod;
+  }
+  .titrage{
+    color: black;
+  }
+  #btninscription{
+    border: 1px solid;
+    height: 30px;
+    width: 90%;
+    background-color: F0E68C;
+    padding-top: 0px;
+    margin: auto;
+    border-color: green;
+  }
+  #items{
+    padding-left: 20%;
+    display: block;
+  }
+  #items ul{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  #items input:checked{
+    background-color: green;
+  }
+  .titre{
+    font-size: 3vw;
+    color: red;
+    text-shadow: 2px 2px 2px  blue;
+  }
+  
+  .dropdown{
+    display: flex;
+    flex-diraction: row;
+  }
+  .btn{
+    width: 100%;
+  }
+  .deroulant{
+    padding-bottom : 1px;
+  }
+  #box1,#box2, #box3 {
+    height: 1200px;
+    
+    
+  }
+  #box2{
+    border: 1px solid; 
+    
+  }
+  #box1 ,#box3{
+   border: 1px solid; 
+  }
+  #box1{
+    margin-left: -12px;
+  }
+  #box3{
+    margin-left: 12px;
+  }
+  #sousmenus{
+    
+    margin: 5px;
+  }
+  #sousmenus .btn{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 6px;
+  }
+  .list li {
+    list-style: none;
+    
+  }
+  .list li a{
+    
+  }
+  .list{
+    padding-left: -10px;
+  }
+  
+  #contenu{
+    margin-top: 10%;
+  }
+  
+  /*-------------------------*/
+  #enfants, #voiture{
+    display: flex;
+    
+  }
+  
+  .commander{
+  
+   float: right;
+    margin-right: 3%;
+    margin-top: 20%;
+    
+  }
+  
+  
+  #box2 div{
+    margin-bottom: 8px;
+    
+  }
+  .image{
+    margin: 2px;
+    float: left;
+  }
+  .card{
+    width: 100%;
+  }
+  .card-text{
+    text-align: center;
+  }
+  
+  .d-flex{
+    margin: 3px;
+  }
